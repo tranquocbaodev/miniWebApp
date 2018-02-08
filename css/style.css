@@ -1,0 +1,1855 @@
+/* line 1, ../scss/partials/_reset.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../scss/partials/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 1;
+  font-size: 100%;
+  font-style: normal;
+  list-style-type: none;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 31, ../scss/partials/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 35, ../scss/partials/_reset.scss */
+abbr[title], dfn[title] {
+  cursor: help;
+  border-bottom: 1px dotted;
+}
+
+/* line 39, ../scss/partials/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  text-decoration: none;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 48, ../scss/partials/_reset.scss */
+a:hover, a:active, a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+/* line 52, ../scss/partials/_reset.scss */
+body {
+  font-style: normal;
+}
+
+/* line 55, ../scss/partials/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 58, ../scss/partials/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 63, ../scss/partials/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 66, ../scss/partials/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 74, ../scss/partials/_reset.scss */
+ins {
+  color: #000;
+  text-decoration: none;
+  background-color: #ff9;
+}
+
+/* line 79, ../scss/partials/_reset.scss */
+mark {
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #ff9;
+}
+
+/* line 85, ../scss/partials/_reset.scss */
+table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* line 90, ../scss/partials/_reset.scss */
+input, select, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  vertical-align: middle;
+  outline: 0;
+}
+
+/* line 96, ../scss/partials/_reset.scss */
+input {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 1;
+  font-style: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 107, ../scss/partials/_reset.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 0;
+  padding: 0;
+  text-indent: -9999px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 118, ../scss/partials/_reset.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 122, ../scss/partials/_reset.scss */
+input[type="search"] {
+  outline: 0;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+/* line 129, ../scss/partials/_reset.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+/* line 135, ../scss/partials/_reset.scss */
+input::-webkit-input-placeholder {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 136, ../scss/partials/_reset.scss */
+input:-moz-placeholder {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 137, ../scss/partials/_reset.scss */
+input::-moz-placeholder {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 138, ../scss/partials/_reset.scss */
+input:-ms-input-placeholder {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 140, ../scss/partials/_reset.scss */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 141, ../scss/partials/_reset.scss */
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* line 142, ../scss/partials/_reset.scss */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* line 143, ../scss/partials/_reset.scss */
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+/* line 144, ../scss/partials/_reset.scss */
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 145, ../scss/partials/_reset.scss */
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* line 146, ../scss/partials/_reset.scss */
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* line 147, ../scss/partials/_reset.scss */
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("fonts/hinted-HelveticaNeue-Light.eot");
+  src: url("../fonts/hinted-HelveticaNeue-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/hinted-HelveticaNeue-Light.woff2") format("woff2"), url("../fonts/hinted-HelveticaNeue-Light.woff") format("woff"), url("../fonts/hinted-HelveticaNeue-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("fonts/hinted-HelveticaNeue.eot");
+  src: url("../fonts/hinted-HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("../fonts/hinted-HelveticaNeue.woff2") format("woff2"), url("../fonts/hinted-HelveticaNeue.woff") format("woff"), url("../fonts/hinted-HelveticaNeue.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("fonts/hinted-HelveticaNeue-Medium.eot");
+  src: url("../fonts/hinted-HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/hinted-HelveticaNeue-Medium.woff2") format("woff2"), url("../fonts/hinted-HelveticaNeue-Medium.woff") format("woff"), url("../fonts/hinted-HelveticaNeue-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("fonts/hinted-HelveticaNeue-Bold.eot");
+  src: url("../fonts/hinted-HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/hinted-HelveticaNeue-Bold.woff2") format("woff2"), url("../fonts/hinted-HelveticaNeue-Bold.woff") format("woff"), url("../fonts/hinted-HelveticaNeue-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 1, ../scss/partials/_custom.scss */
+.container-fluid {
+  width: 100%;
+  min-width: 1263px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  position: relative;
+}
+
+/* line 12, ../scss/partials/_custom.scss */
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 16, ../scss/partials/_custom.scss */
+.clear, .clear:before, .clear:after {
+  clear: both;
+}
+
+/* line 19, ../scss/partials/_custom.scss */
+.icons {
+  background-image: url(../i/web/icons.png);
+  background-position: 0 0;
+}
+
+/* line 24, ../scss/partials/_custom.scss */
+.hol-x {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 32, ../scss/partials/_custom.scss */
+.ver-y {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 40, ../scss/partials/_custom.scss */
+.cen-z {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 48, ../scss/partials/_custom.scss */
+.mix-xy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 4, ../scss/partials/_landing.scss */
+.cover-center {
+  display: block;
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+
+/* line 12, ../scss/partials/_landing.scss */
+.super-ideal {
+  display: block;
+  width: 100%;
+  height: 801px;
+  position: relative;
+}
+/* line 18, ../scss/partials/_landing.scss */
+.super-ideal .price-right {
+  display: block;
+  width: 112px;
+  height: 114px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 13;
+}
+/* line 26, ../scss/partials/_landing.scss */
+.super-ideal .price-right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 32, ../scss/partials/_landing.scss */
+.super-ideal .image-under {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* line 41, ../scss/partials/_landing.scss */
+.super-ideal .image-under .bg-class01 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-image: -webkit-linear-gradient(305deg, #040d33 0%, #052251 0%, #050d2d 99%);
+  background-image: -o-linear-gradient(305deg, #040d33 0%, #052251 0%, #050d2d 99%);
+  background-image: linear-gradient(35deg, #040d33 0%, #052251 0%, #050d2d 99%);
+}
+/* line 55, ../scss/partials/_landing.scss */
+.super-ideal .image-under .bg-class02 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background: url(../i/web/bg-class2.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0.1;
+}
+/* line 71, ../scss/partials/_landing.scss */
+.super-ideal .image-under .bg-class03 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: url(../i/web/bg-class1.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 0.15;
+}
+/* line 87, ../scss/partials/_landing.scss */
+.super-ideal .image-under .bg-class04 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background: url(../i/web/pat.png);
+  opacity: 0.03;
+}
+/* line 100, ../scss/partials/_landing.scss */
+.super-ideal .point-right {
+  display: block;
+  position: absolute;
+  top: 258px;
+  right: 20px;
+  z-index: 11;
+}
+/* line 106, ../scss/partials/_landing.scss */
+.super-ideal .point-right ul {
+  display: block;
+  width: 8px;
+}
+/* line 109, ../scss/partials/_landing.scss */
+.super-ideal .point-right ul li {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 11px;
+  position: relative;
+}
+/* line 117, ../scss/partials/_landing.scss */
+.super-ideal .point-right ul li.active {
+  background: #f1c40f;
+  border: none;
+}
+/* line 121, ../scss/partials/_landing.scss */
+.super-ideal .point-right ul li:hover {
+  background: #f1c40f;
+  border: none;
+}
+/* line 125, ../scss/partials/_landing.scss */
+.super-ideal .point-right ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 136, ../scss/partials/_landing.scss */
+.super-ideal .above-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 11;
+}
+/* line 142, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+/* line 147, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .logo {
+  display: block;
+  float: left;
+  width: 159px;
+  height: 34px;
+  margin-left: 52px;
+  margin-top: 24px;
+}
+/* line 154, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 161, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav {
+  float: right;
+  width: 544px;
+  padding-top: 31px;
+}
+/* line 165, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav ul {
+  float: left;
+}
+/* line 167, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav ul li {
+  float: left;
+  padding: 0 1px;
+  margin-right: 30px;
+}
+/* line 171, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav ul li a {
+  display: block;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+/* line 178, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav ul li.active {
+  position: relative;
+}
+/* line 180, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav ul li.active a {
+  color: #fff;
+}
+/* line 183, ../scss/partials/_landing.scss */
+.super-ideal .above-content .desv-header .desv-nav ul li.active:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #f1c40f;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+/* line 199, ../scss/partials/_landing.scss */
+.super-ideal .above-content .left-social {
+  display: block;
+  position: absolute;
+  left: 52px;
+  top: 95px;
+}
+/* line 204, ../scss/partials/_landing.scss */
+.super-ideal .above-content .left-social ul {
+  display: block;
+}
+/* line 206, ../scss/partials/_landing.scss */
+.super-ideal .above-content .left-social ul li {
+  display: block;
+  width: 22px;
+  height: 25px;
+  margin-bottom: 7px;
+}
+/* line 211, ../scss/partials/_landing.scss */
+.super-ideal .above-content .left-social ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 215, ../scss/partials/_landing.scss */
+.super-ideal .above-content .left-social ul li a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 225, ../scss/partials/_landing.scss */
+.super-ideal .above-content .ideal-art {
+  display: block;
+  text-align: center;
+  width: 307px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 239px;
+}
+/* line 232, ../scss/partials/_landing.scss */
+.super-ideal .above-content .ideal-art img {
+  display: block;
+  width: 307px;
+  height: 83px;
+}
+/* line 237, ../scss/partials/_landing.scss */
+.super-ideal .above-content .ideal-art .text-art {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+/* line 249, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+/* line 253, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 59px;
+}
+/* line 263, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser {
+  display: block;
+  width: 100%;
+  height: 236px;
+  position: relative;
+  padding: 0 51px;
+  padding-top: 21px;
+}
+/* line 270, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li {
+  float: left;
+  width: 276px;
+  height: 236px;
+  margin-right: 24px;
+  position: relative;
+}
+/* line 277, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .icons {
+  display: block;
+  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+  background-position: 0 0;
+  margin-top: 39px;
+  margin-bottom: 23px;
+}
+/* line 287, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .title-box {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+/* line 295, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .detail-box {
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 25px;
+}
+/* line 303, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .color-house {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+/* line 309, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .color-house .one-here {
+  display: block;
+  width: 100%;
+  height: 79px;
+  position: relative;
+}
+/* line 314, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .color-house .one-here:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 138px solid transparent;
+  border-right: 138px solid transparent;
+  border-bottom: 79px solid rgba(0, 255, 116, 0.5);
+}
+/* line 324, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li .color-house .two-here {
+  display: block;
+  width: 100%;
+  height: 157px;
+  background: rgba(0, 255, 116, 0.5);
+}
+/* line 339, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.two .icons {
+  display: block;
+  width: 51px;
+  height: 47px;
+  background-position: -61px 0;
+}
+/* line 348, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.two .color-house .one-here:before {
+  border-bottom: 79px solid rgba(240, 197, 20, 0.5);
+}
+/* line 352, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.two .color-house .two-here {
+  background: rgba(240, 197, 20, 0.5);
+}
+/* line 360, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.three .icons {
+  display: block;
+  width: 51px;
+  height: 47px;
+  background-position: -120px 0;
+}
+/* line 369, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.three .color-house .one-here:before {
+  border-bottom: 79px solid rgba(0, 212, 255, 0.5);
+}
+/* line 373, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.three .color-house .two-here {
+  background: rgba(0, 212, 255, 0.5);
+}
+/* line 379, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.four {
+  margin-right: 0;
+}
+/* line 381, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.four .icons {
+  display: block;
+  width: 46px;
+  height: 47px;
+  background-position: -180px 0;
+}
+/* line 391, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.four .color-house .one-here:before {
+  border-bottom: 79px solid rgba(162, 92, 255, 0.5);
+}
+/* line 395, ../scss/partials/_landing.scss */
+.super-ideal .above-content .service-header .list-ser li.four .color-house .two-here {
+  background: rgba(162, 92, 255, 0.5);
+}
+
+/* line 408, ../scss/partials/_landing.scss */
+.desv-project {
+  display: block;
+  width: 100%;
+  height: 1128px;
+  position: relative;
+  background-image: -moz-linear-gradient(-35deg, #49a0db 0%, #4956de 99%);
+  background-image: -webkit-linear-gradient(-35deg, #49a0db 0%, #4956de 99%);
+  background-image: -ms-linear-gradient(-35deg, #49a0db 0%, #4956de 99%);
+}
+/* line 417, ../scss/partials/_landing.scss */
+.desv-project .double-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 70px;
+}
+/* line 424, ../scss/partials/_landing.scss */
+.desv-project .double-title .one {
+  display: block;
+  font-size: 71.55px;
+  color: rgba(0, 0, 1, 0.302);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 431, ../scss/partials/_landing.scss */
+.desv-project .double-title .two {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 445, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider {
+  padding-top: 34px;
+  margin-bottom: 49px;
+}
+/* line 448, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider ul {
+  float: left;
+}
+/* line 450, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider ul li {
+  float: left;
+  padding: 0 1px;
+  margin-right: 30px;
+}
+/* line 454, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider ul li a {
+  display: block;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 460, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider ul li.active {
+  position: relative;
+}
+/* line 462, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider ul li.active a {
+  color: #fff;
+}
+/* line 465, ../scss/partials/_landing.scss */
+.desv-project .navigation-slider ul li.active:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #f1c40f;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+/* line 480, ../scss/partials/_landing.scss */
+.desv-project .cover-slider {
+  display: block;
+  width: 1185px;
+  height: 852px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 487, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each {
+  display: block;
+  width: 391px;
+  height: 417px;
+  overflow: hidden;
+  background: url(../i/web/square02.png);
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9px;
+  position: relative;
+}
+/* line 498, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each.two {
+  margin: 0 6px;
+}
+/* line 501, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each .img {
+  display: block;
+  width: 333px;
+  height: 360px;
+  overflow: hidden;
+}
+/* line 507, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each .cover-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* line 516, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each .yellow-active {
+  display: block;
+  width: 333px;
+  height: 360px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -166.5px;
+  margin-top: -180px;
+  background: #f0c514;
+  z-index: 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* line 530, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each .yellow-active .center-yellow .title {
+  display: block;
+  text-align: center;
+  font-size: 21.85px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  padding: 0 10px;
+  line-height: 1.2;
+}
+/* line 541, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each .yellow-active .center-yellow .detail {
+  display: block;
+  text-align: center;
+  font-size: 17.48px;
+  color: #ffffff;
+  margin-bottom: 21px;
+  padding: 0 10px;
+  line-height: 1.2;
+}
+/* line 550, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .item-each .yellow-active .center-yellow .view-more {
+  display: block;
+  width: 178px;
+  height: 53px;
+  background: url(../i/web/square.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 auto;
+}
+/* line 571, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .next-arrow {
+  display: block;
+  position: absolute;
+  right: -31px;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 577, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .next-arrow .icons {
+  display: block;
+  width: 22px;
+  height: 40px;
+  background-position: -282px 0;
+}
+/* line 585, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .pre-arrow {
+  display: block;
+  position: absolute;
+  left: -31px;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 591, ../scss/partials/_landing.scss */
+.desv-project .cover-slider .pre-arrow .icons {
+  display: block;
+  width: 22px;
+  height: 40px;
+  background-position: -240px 0;
+}
+
+/* line 602, ../scss/partials/_landing.scss */
+.desv-project.client {
+  height: 800px;
+  background-image: -moz-linear-gradient(-35deg, #aa49de 0%, #4a54de 100%);
+  background-image: -webkit-linear-gradient(-35deg, #aa49de 0%, #4a54de 100%);
+  background-image: -ms-linear-gradient(-35deg, #aa49de 0%, #4a54de 100%);
+}
+/* line 607, ../scss/partials/_landing.scss */
+.desv-project.client .dot-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background: url(../i/web/pat.png);
+  opacity: 0.03;
+}
+/* line 619, ../scss/partials/_landing.scss */
+.desv-project.client .people-say {
+  display: block;
+  width: 100%;
+  padding: 0 130px;
+  padding-top: 85px;
+  position: relative;
+}
+/* line 625, ../scss/partials/_landing.scss */
+.desv-project.client .people-say .say {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+/* line 629, ../scss/partials/_landing.scss */
+.desv-project.client .people-say .say span {
+  font-size: 20px;
+  line-height: 60px;
+  font-style: italic;
+}
+/* line 634, ../scss/partials/_landing.scss */
+.desv-project.client .people-say .say i {
+  display: block;
+  height: 50px;
+  font-size: 118px;
+  position: absolute;
+  left: -85px;
+  top: 0;
+}
+/* line 641, ../scss/partials/_landing.scss */
+.desv-project.client .people-say .say i.two {
+  left: auto;
+  top: auto;
+  bottom: 0;
+  right: -85px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+}
+/* line 654, ../scss/partials/_landing.scss */
+.desv-project.client .list-people {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+/* line 658, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul {
+  float: left;
+  width: 100%;
+  margin-top: 92px;
+}
+/* line 662, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul:before {
+  display: block;
+  content: '';
+  width: 1080px;
+  height: 16px;
+  margin: 0 auto;
+  background: url(../i/web/line.png) no-repeat;
+}
+/* line 670, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  margin-top: 39px;
+}
+/* line 676, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 680, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul li a img {
+  display: block;
+  margin: 0 auto;
+  width: 89px;
+  height: 102px;
+}
+/* line 686, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul li a .name {
+  display: block;
+  font-size: 18px;
+  color: #f1c40f;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+/* line 693, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul li a .detail {
+  display: block;
+  font-size: 12px;
+  color: #00dcff;
+  margin-top: 12px;
+}
+/* line 698, ../scss/partials/_landing.scss */
+.desv-project.client .list-people ul li a .detail .name-com {
+  display: block;
+  font-size: 12px;
+  color: #00dcff;
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* line 713, ../scss/partials/_landing.scss */
+.desv-project.blog {
+  height: 800px;
+  background-image: -moz-linear-gradient(-35deg, #49a0db 0%, #4956de 99%);
+  background-image: -webkit-linear-gradient(-35deg, #49a0db 0%, #4956de 99%);
+  background-image: -ms-linear-gradient(-35deg, #49a0db 0%, #4956de 99%);
+}
+/* line 718, ../scss/partials/_landing.scss */
+.desv-project.blog .dot-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background: url(../i/web/pat.png);
+  opacity: 0.03;
+}
+/* line 730, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog {
+  display: block;
+  width: 1118px;
+  margin: 0 auto;
+  padding-top: 43px;
+  overflow: hidden;
+}
+/* line 737, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li {
+  float: left;
+  width: 33.33%;
+  height: 572px;
+  position: relative;
+}
+/* line 742, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li img {
+  display: block;
+  width: 244px;
+  height: 274px;
+  margin: 0 auto;
+}
+/* line 748, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li .title-yellow {
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  color: #f1c40f;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 0 62px;
+  margin-top: 31px;
+}
+/* line 758, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li .title-white {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 61px;
+  margin-top: 10px;
+}
+/* line 765, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li .detail {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 59px;
+  line-height: 30px;
+  margin-top: 9px;
+  padding-right: 56px;
+}
+/* line 775, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li .view-more {
+  display: block;
+  width: 178px;
+  height: 53px;
+  background: url(../i/web/square.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  position: absolute;
+  left: 50%;
+  margin-left: -89px;
+  bottom: 0;
+}
+/* line 790, ../scss/partials/_landing.scss */
+.desv-project.blog .list-blog li .view-more.active .yellow-acitve {
+  display: block;
+  width: 157px;
+  height: 37px;
+  background-color: #f1c40f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 809, ../scss/partials/_landing.scss */
+.desv-project.tech {
+  background-image: -moz-linear-gradient(-35deg, #aa49de 0%, #4a54de 100%);
+  background-image: -webkit-linear-gradient(-35deg, #aa49de 0%, #4a54de 100%);
+  background-image: -ms-linear-gradient(-35deg, #aa49de 0%, #4a54de 100%);
+  height: 800px;
+}
+/* line 815, ../scss/partials/_landing.scss */
+.desv-project.tech .double-title {
+  margin-bottom: 196px;
+}
+/* line 819, ../scss/partials/_landing.scss */
+.desv-project.tech .Logo-desv {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
+/* line 827, ../scss/partials/_landing.scss */
+.desv-project.tech .Logo-desv img {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -413px;
+  width: 826px;
+  height: 506px;
+  opacity: 0.05;
+}
+/* line 838, ../scss/partials/_landing.scss */
+.desv-project.tech .list-tech {
+  display: block;
+  width: 1065px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 68px;
+}
+/* line 846, ../scss/partials/_landing.scss */
+.desv-project.tech .list-tech li {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 93px;
+}
+/* line 855, ../scss/partials/_landing.scss */
+.desv-project.tech .list-tech li:last-child {
+  margin-right: 0;
+}
+
+/* line 864, ../scss/partials/_landing.scss */
+.footer-desv {
+  display: block;
+  width: 100%;
+  height: 239px;
+  position: relative;
+  padding-top: 56px;
+  z-index: 15;
+}
+/* line 872, ../scss/partials/_landing.scss */
+.footer-desv .map-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../i/web/map.png) no-repeat;
+  background-position: center center;
+  z-index: 10;
+}
+/* line 883, ../scss/partials/_landing.scss */
+.footer-desv .dot-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background: url(../i/web/pat.png);
+  opacity: 0.03;
+}
+/* line 894, ../scss/partials/_landing.scss */
+.footer-desv .bg-color {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: -moz-linear-gradient(-35deg, #040d33 0%, #052251 0%, #050d2d 99%);
+  background-image: -webkit-linear-gradient(-35deg, #040d33 0%, #052251 0%, #050d2d 99%);
+  background-image: -ms-linear-gradient(-35deg, #040d33 0%, #052251 0%, #050d2d 99%);
+  opacity: 0.851;
+}
+/* line 907, ../scss/partials/_landing.scss */
+.footer-desv .link {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  font-size: 35px;
+  color: #51c8eb;
+  font-weight: bold;
+  padding-left: 39px;
+}
+/* line 917, ../scss/partials/_landing.scss */
+.footer-desv .phone {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  font-size: 35px;
+  color: #f0c419;
+  font-weight: 300;
+  padding-left: 47px;
+}
+/* line 927, ../scss/partials/_landing.scss */
+.footer-desv .address {
+  float: left;
+  width: 33.33%;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 300;
+  padding-left: 114px;
+  padding-right: 30px;
+}
+/* line 938, ../scss/partials/_landing.scss */
+.footer-desv .logo {
+  display: block;
+  width: 165px;
+  height: 34px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/* line 944, ../scss/partials/_landing.scss */
+.footer-desv .logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 950, ../scss/partials/_landing.scss */
+.footer-desv .text-last {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+/* line 960, ../scss/partials/_landing.scss */
+.contact-us {
+  display: block;
+  width: 100%;
+  height: 801px;
+  background-color: rgba(34, 42, 70, 0.902);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+/* line 969, ../scss/partials/_landing.scss */
+.contact-us .dot-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background: url(../i/web/pat.png);
+  opacity: 0.03;
+}
+/* line 981, ../scss/partials/_landing.scss */
+.contact-us .double-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 70px;
+}
+/* line 988, ../scss/partials/_landing.scss */
+.contact-us .double-title .one {
+  display: block;
+  font-size: 71.55px;
+  color: rgba(0, 0, 1, 0.302);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 995, ../scss/partials/_landing.scss */
+.contact-us .double-title .two {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 1009, ../scss/partials/_landing.scss */
+.contact-us .group-input-all {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+/* line 1015, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left {
+  float: left;
+  width: 257px;
+}
+/* line 1019, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .input-here {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 1023, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .input-here:last-child {
+  margin-bottom: 0;
+}
+/* line 1026, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .input-here .label-input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+/* line 1035, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .cover-input {
+  display: block;
+  width: 100%;
+  height: 53px;
+  background: url(../i/web/input.png);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 1042, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .cover-input input {
+  display: block;
+  width: 100%;
+  padding-left: 55px;
+  padding-right: 30px;
+}
+/* line 1049, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .cover-input.name .icons {
+  display: block;
+  width: 19px;
+  height: 19px;
+  background-position: -160px -97px;
+  position: absolute;
+  top: 17px;
+  left: 27px;
+}
+/* line 1060, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .cover-input.mail .icons {
+  display: block;
+  width: 29px;
+  height: 18px;
+  background-position: -120px -98px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+/* line 1071, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .cover-input.company .icons {
+  display: block;
+  width: 18px;
+  height: 24px;
+  background-position: -90px -92px;
+  position: absolute;
+  top: 14.5px;
+  left: 24px;
+}
+/* line 1082, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-left .cover-input.phone .icons {
+  display: block;
+  width: 28px;
+  height: 22px;
+  background-position: -50px -94px;
+  position: absolute;
+  top: 15.5px;
+  left: 22px;
+}
+/* line 1094, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right {
+  float: right;
+  width: calc( 100% - 307px );
+}
+/* line 1098, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 1102, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here:last-child {
+  margin-bottom: 0;
+}
+/* line 1105, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here .label-input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+/* line 1113, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here .cover-input {
+  display: block;
+  width: 100%;
+  height: 53px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 1119, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here .cover-input.textarea {
+  height: 244px;
+  background: url(../i/web/textarea.png);
+}
+/* line 1122, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here .cover-input.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 30px;
+  resize: none;
+  line-height: 1.2;
+}
+/* line 1135, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here .cover-input.input-long {
+  background: url(../i/web/long-input.png);
+}
+/* line 1138, ../scss/partials/_landing.scss */
+.contact-us .group-input-all .group-right .input-here .cover-input input {
+  display: block;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+/* line 1149, ../scss/partials/_landing.scss */
+.contact-us .what-you-want {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+/* line 1154, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .title {
+  display: block;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+/* line 1161, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+/* line 1165, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li {
+  float: left;
+  height: 30px;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 7px;
+}
+/* line 1172, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li .tick-me {
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+/* line 1177, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li .tick-me span {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 23px;
+}
+/* line 1183, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li .tick-me::before, .contact-us .what-you-want .list-tick li .tick-me::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 1189, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li .tick-me::before {
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: url(../i/web/icons.png);
+  background-position: -31px -131px;
+  top: 50%;
+  margin-top: -3.5px;
+}
+/* line 1198, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li .tick-me::after {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background: url(../i/web/icons.png);
+  background-position: -2px -120px;
+}
+/* line 1205, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li input:checked + .tick-me::after {
+  display: block;
+  top: -7px;
+  left: -7px;
+}
+/* line 1210, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .list-tick li input:checked + .tick-me::before {
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+/* line 1218, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .view-more {
+  display: block;
+  width: 178px;
+  height: 53px;
+  background: url(../i/web/square.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 37px;
+}
+/* line 1231, ../scss/partials/_landing.scss */
+.contact-us .what-you-want .view-more.active .yellow-acitve {
+  display: block;
+  width: 157px;
+  height: 37px;
+  background-color: #f1c40f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 1, ../scss/partials/_lib.scss */
+.bg-class07 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0.2;
+}
+
+/* line 13, ../scss/partials/_lib.scss */
+.contact-us .xclose {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-position: 0 -72px;
+  position: absolute;
+  top: 23px;
+  right: 26px;
+  z-index: 101;
+}
+
+/* line 27, ../scss/partials/_lib.scss */
+.super-ideal .price-right a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 37, ../scss/partials/_lib.scss */
+.super-ideal .image-under .bg-class05 {
+  display: block;
+  width: 650px;
+  height: 415px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  z-index: 9;
+  opacity: 1;
+}
+/* line 47, ../scss/partials/_lib.scss */
+.super-ideal .image-under .bg-class06 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  opacity: 0.2;
+}
+
+/* line 64, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer {
+  float: left;
+  width: 100%;
+  margin-top: 92px;
+}
+/* line 68, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer:before {
+  display: block;
+  content: '';
+  width: 1080px;
+  height: 16px;
+  margin: 0 auto;
+  background: url(../i/web/line.png) no-repeat;
+}
+/* line 76, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer .customer {
+  float: left;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  margin-top: 39px;
+}
+/* line 82, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer .customer a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 86, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer .customer a img {
+  display: block;
+  margin: 0 auto;
+  width: 89px;
+  height: 102px;
+}
+/* line 92, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer .customer a .name {
+  display: block;
+  font-size: 18px;
+  color: #f1c40f;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+/* line 99, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer .customer a .detail {
+  display: block;
+  font-size: 12px;
+  color: #00dcff;
+  margin-top: 12px;
+}
+/* line 104, ../scss/partials/_lib.scss */
+.desv-project.client .list-people .list-customer .customer a .detail .name-com {
+  display: block;
+  font-size: 12px;
+  color: #00dcff;
+  text-align: center;
+  margin-top: 4px;
+}
+/* line 119, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .item-each.two {
+  margin: 0 0 9px 0;
+}
+/* line 122, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .item-each .img {
+  position: absolute;
+  top: 29px;
+  left: 31px;
+}
+/* line 128, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .slick-prev {
+  display: block;
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  left: -31px;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 136, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .slick-prev:before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 40px;
+  background-position: -240px 0;
+  background-image: url(../i/web/icons.png);
+}
+/* line 145, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .slick-next {
+  display: block;
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  right: -31px;
+  top: 50%;
+  margin-top: -20px;
+}
+/* line 153, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .slick-next:before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 40px;
+  background-position: -282px 0;
+  background-image: url(../i/web/icons.png);
+}
+/* line 164, ../scss/partials/_lib.scss */
+.desv-project .cover-slider .slick-list .slick-track .slick-slide {
+  min-height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

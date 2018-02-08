@@ -1,0 +1,20 @@
+[
+	{
+		"img":"i/web/a1.png",
+		"title":"wordpress không phải là những gì bạn nghĩ",
+		"name":"Thiết kế web",
+		"desc":"WordPress (WP) là một trong những blogging platform mạnh mẽ ..."
+	},
+	{
+		"img":"i/web/a2.png",
+		"title":"marketing mẹo cho website của bạn",
+		"name":"Tiếp thị",
+		"desc":"Những chiêu thức marketing đều hướng tới một mục tiêu: tạo được tiếng vang cho sản phẩm.."
+	},
+	{
+		"img":"i/web/a3.png",
+		"title":"6 sai lầm sẽ giết chết doanh nghiệp của bạn",
+		"name":"Thiết kế web",
+		"desc":"Dưới đây là 6 sai lầm phổ biến mà các doanh nghiệp Việt thường xuyên “dính” phải khi bắt tay làm tiếp thị..."
+	}
+]

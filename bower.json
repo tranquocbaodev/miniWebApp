@@ -1,0 +1,25 @@
+{
+  "name": "final",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.4",
+    "angular-sanitize": "^1.6.3",
+    "slick-carousel": "^1.6.0",
+    "angular-slick-carousel": "^3.1.7",
+    "particleground": "*",
+    "particles.js": "^2.0.0"
+  }
+}

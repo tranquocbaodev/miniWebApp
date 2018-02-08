@@ -1,0 +1,11 @@
+// Import Files
+@import "partials/reset.scss";
+@import "partials/fonts.scss";
+@import "partials/custom.scss";
+
+@import "partials/landing.scss";
+@import "partials/lib.scss";
+
+@import "partials/breakpoints.scss";
+
+//Usage: 	sass --watch scss/style.scss:css/style.css --style expanded --scss -l -C
